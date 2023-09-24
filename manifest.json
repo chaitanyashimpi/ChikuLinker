@@ -1,15 +1,17 @@
 {
-	"name": "Chiku Opener",
-	"description": "Your one and only link opener.",
-	"version": "0.0.1",
+	"name": "ChikuLinker - Open Links in Tab",
+	"description": "ChikuLinker: Enhance Chrome lead gen! Open word-related links quickly for productivity. Optimize workflow and ace lead gen.",
+	"version": "2023.0.1",
 	"manifest_version": 3,
 	"action": {
 		"default_popup": "popup.html",
-		"default_icon": { "128": "logo.png" }
+		"default_icon": { "128": "image.png" }
 	},
 	"icons": {
-		"128": "logo.png"
+		"128": "image.png"
 	},
+	"display": "standalone",
+
 	"permissions": ["activeTab", "tabs"],
 	"author": "Chaitanya Shimpi",
 	"content_security_policy": {

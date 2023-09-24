@@ -18,8 +18,13 @@ body {
 ul {
 	list-style: none;
 }
-button,
-nav ul li {
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a, li, .submit span, button{
 	cursor: pointer;
 }
 nav {
@@ -28,6 +33,10 @@ nav {
 	align-items: center;
 	background-color: #2f2f42;
 	padding: 0 10px;
+}
+nav a img{
+	width: 25px;
+	margin-right: 5px;
 }
 nav h1 {
 	font-size: 20px;
@@ -48,6 +57,10 @@ nav ul li {
 nav ul li.active {
 	color: #d6496b;
 	background-color: #1e1e2681;
+}
+img.developer{
+	width: 35px;
+	border-radius: 50%;
 }
 textarea {
 	background-image: linear-gradient(#f1f1f1 50%, #f9f9f9 50%);
@@ -80,7 +93,6 @@ textarea {
 	border: none;
 	outline: none;
 	margin: 0 10px;
-	cursor: pointer;
 	color: black;
 	font-weight: bold;
 	border-radius: 50px;

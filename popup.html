@@ -3,20 +3,28 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Chiku Link Opener</title>
+		<title>ChikuLinker - Open Links in Tab</title>
+		<meta name="description" content="ChikuLinker is a powerful Chrome extension designed for businesses to streamline lead generation. Easily open links associated with specific words in new tabs, enhancing productivity and efficiency. Optimize your workflow and accelerate your lead generation efforts with ChikuLinker.
+		">
+		<meta name="keywords" content="Chrome extension, ChikuLinker, open links in new tabs, word-to-link, lead generation, productivity, workflow optimization, business tool">
+		<meta name="robots" content="noindex,nofollow">
+
         <script src="./script.js" defer></script>
 		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
 		<nav>
-			<div>
+			<a href="#" style="display: flex; align-items: center; justify-content: center;">
+				<img src="./image.png" alt="Chiku Linker - Open Links in Tab Icon">
 				<h1><span>Chiku</span>Linker</h1>
-			</div>
+			</a>
 			<ul class="tabs">
-				<li class="active">LinkOpener</li>
+				<li class="active">Open Links in Tab</li>
 				<!-- <li>About</li> -->
 			</ul>
-			<div class="socialIcons">I</div>
+			<a href="https://chaitany.com" title="Developer: Chaitanya Shimpi" target="_blank" >
+				<img class="developer" alt="Chaitanya Shimpi - Developer of ChikuLinker" src="./developer.jpg"/>
+			</a>
 		</nav>
 		<main>
 			<form>
@@ -27,7 +35,7 @@
 				<br />
 				<div class="submit">
 					<span id="openLinks">Open</span>
-					<button>Reset</button>
+					<button type="reset">Reset</button>
 				</div>
 			</form>
 		</main>
