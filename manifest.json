@@ -1,0 +1,19 @@
+{
+	"name": "Chiku Opener",
+	"description": "Your one and only link opener.",
+	"version": "0.0.1",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": { "128": "logo.png" }
+	},
+	"icons": {
+		"128": "logo.png"
+	},
+	"permissions": ["activeTab", "tabs"],
+	"author": "Chaitanya Shimpi",
+	"content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self' ;",
+        "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+    }
+}
