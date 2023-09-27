@@ -10,9 +10,6 @@
 	"icons": {
 		"128": "image.png"
 	},
-	"display": "standalone",
-
-	"permissions": ["activeTab", "tabs"],
 	"author": "Chaitanya Shimpi",
 	"content_security_policy": {
         "extension_pages": "script-src 'self'; object-src 'self' ;",
